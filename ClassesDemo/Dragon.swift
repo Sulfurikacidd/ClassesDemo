@@ -25,7 +25,7 @@ class Dragon: Enemy {
         print("Fly forwards !!!")
     }
     
-    override func attack() {       //here dragon is inheriting attack func from it's parent's class and the inherit it's funtionality (from it's parent) using super. keyword and then adding some more functionality to it.
+    override func attack() {       //here dragon is inheriting attack func from it's parent's class and then inheriting it's funtionality (from it's parent) using super keyword and then adding some more functionality to it for the dragon class.
         super.attack()
         print("Spits fire, dose additional damage")
     }

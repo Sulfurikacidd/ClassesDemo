@@ -25,13 +25,13 @@ skeleton.getHealth()
  
  BOTH objs will be affected.
  
- In classes, the objects vars actually REFER to the object created in memory. skeleton_1 & 2 are pointing to the same object in the mememory.
+ In classes, the object's vars actually REFER to the object created in memory. skeleton_1 & 2 are pointing to the same object in the mememory. Changing one will affect the other.
  
  Structs are value type, meaning:
  
  Each struct is it's OWN unique copy, changing or DESTROYING one will NOT affect the other.
  
-APPLE RECOMMENDS TO ALWAYS START WITH STRUCT and ONLY change them to classes if needed (inheritence and other super. or override capabilities) !!
+APPLE RECOMMENDS TO ALWAYS START WITH STRUCT and ONLY change them to classes if needed (inheritence and other super.method() or override capabilities) !!
  
  
  */
